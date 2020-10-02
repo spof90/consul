@@ -1,0 +1,243 @@
+/* Welcome page
+ - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.home-page {
+
+  .background-header {
+      display: none;
+  }
+
+  .jumbo {
+
+    @media only screen and (max-width: 414px) {
+      background: #ffffff image-url("welcome/head_small.png");
+      background-position: bottom;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(220);
+
+      span {
+        display: none;
+      }
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 414px) and (max-width: 550px) {
+      background: #ffffff image-url("welcome/head_small.png");
+      background-position: bottom;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(330);
+
+      span {
+        display: none;
+      }
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 550px) and (max-width: 640px) {
+      background: #ffffff image-url("welcome/head_small.png");
+      background-position: bottom;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(390);
+
+      span {
+        display: none;
+      }
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 640px) and (max-width: 768px) {
+      padding-top: 10px;
+      background: image-url("welcome/head_medium.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(60);
+
+      span {
+        display: none;
+      }
+
+      .lead {
+        color: $white;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+        padding-bottom: 120px;
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 950px) {
+      padding-top: 20px;
+      background: image-url("welcome/head_medium.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(60);
+
+      .lead {
+        color: $white;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+        padding-bottom: 150px;
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 950px) and (max-width: 1440px) {
+      padding-top: 20px;
+      background: image-url("welcome/head_large.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(60);
+
+      .lead {
+        color: $white;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+        padding-bottom: 150px;
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 950px) and (max-width: 1280px) {
+      padding-top: 40px;
+      background: image-url("welcome/head_medium.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(160);
+
+      .lead {
+        color: $white;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+        padding-bottom: 180px;
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+    
+    @media only screen and (min-width: 1280px) and (max-width: 1554px) {
+      padding-top: 45px;
+      background: image-url("welcome/head_medium.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(180);
+
+      .lead {
+        color: $white;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+        padding-bottom: 260px;
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 1554px) and (max-width: 1900px) {
+      padding-top: 370px;
+      background: image-url("welcome/head_large.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(80);
+
+      .lead {
+        color: $white;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+
+    @media only screen and (min-width: 1900px) {
+      padding-top: 250px;
+      background: image-url("welcome/head_large.png");
+      background-size: 100% auto;;
+      background-repeat: no-repeat;
+      padding-bottom: rem-calc(380);
+
+      .lead {
+        color: $brand;
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(30);
+      }
+
+      .button {
+        background: $brand;
+        color: #fff;
+        max-width: 100%;
+      }
+    }
+  }
+}

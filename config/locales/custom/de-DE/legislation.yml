@@ -1,0 +1,22 @@
+de:
+  legislation:
+    processes:
+      shared:
+        key_dates: Teilnahmephasen
+        homepage: Informationen
+        debate_dates: Offene Fragen
+        draft_publication_date: Veröffentlichung Entwurfs
+        allegations_dates: Ausarbeitung
+        result_publication_date: Veröffentlichung Endergebnis
+        milestones_date: Meilensteine
+        proposals_dates: Vorschläge
+      index:
+        section_header:
+          icon_alt: Beteiligungsverfahren Icon
+          title: Beteiligungsverfahren
+          help: Hilfe zu Beteiligungsverfahren
+        section_footer:
+          title: Hilfe zu Beteiligungsverfahren
+          description: Beteiligen Sie sich bei der Erstellung eines kollaborativ erarbeiteten Dokumentes. Der Beteiligungsprozess ist in verschiedenen Phasen unterteilt, die nacheinander oder parallel laufen können.
+      process:
+        see_latest_comments: Neueste Kommentare

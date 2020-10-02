@@ -1,0 +1,119 @@
+de:
+  account:
+    proposal:
+      reason_for_supports_necessary: ""
+  welcome:
+    feed:
+      most_active:
+        debates: "Aktivste Diskussionen"
+      see_all_debates: Alle Diskussionen anzeigen
+    recommended:
+      help: "Diese Empfehlungen werden durch die Schlagwörter der Diskussionen und Vorschläge, denen Sie folgen, generiert."
+  poster:
+    index:
+      intro_text: "<strong> Ich beteilige mich mit meinem eigenen Vorschlag an %{org}</strong>, und nur wenn Sie dem beitreten, kann ich die notwendige Unterstützung erreichen, damit wir die Stadt so gestalten, wie wir sie alle wollen."
+  dashboard:
+    mailer:
+      forward:
+        introduction: Ich schreibe Ihnen, da ich an %{org} teilnehme, der Plattform, auf der wir entscheiden können, welche Stadt wir wollen. Dafür habe ich meinen eigenen Vorschlag erstellt und jetzt werde ich Ihre Unterstützung brauchen! Keine Sorge, es ist sehr einfach.
+  shared:
+    followable:
+      proposal:
+        create:
+          notice: "Jetzt folgen Sie diesem Vorschlag! <br> Wir werden Sie über Änderungen benachrichtigen sobald diese erscheinen, sodass Sie auf dem neusten Stand sind."
+        destroy:
+          notice: "Sie haben aufgehört diesem Vorschlag zu folgen! <br> Sie werden nicht länger Benachrichtigungen zu diesem Vorschlag erhalten."
+    tags_cloud:
+      tags: Beliebte Tags
+      districts: "Bereiche"
+      districts_list: "Liste der Bereiche"
+      categories: "Alle Tags"
+    advanced_search:
+      author_type: "Nach Autorenkategorie"
+    follow_entity: "Diesem Vorschlag folgen"
+    suggest:
+      proposal:
+        found:
+          one: "Es gibt bereits einen Vorschlag mit dem Begriff '%{query}', Sie können an diesem mitwirken, anstatt einen neuen zu erstellen"
+          other: "Es gibt Vorschläge mit dem Begriff '%{query}', Sie können an diesen mitwirken, anstatt einen neuen zu erstellen"
+        message: "Sie sehen %{limit} %{count} Vorschläge mit dem Begriff \"%{query}\""
+  debates:
+    index:
+      orders:
+        confidence_score: Am besten bewertet
+        created_at: Neueste
+        hot_score: Aktivste
+  proposals:
+    index:
+      top_link_proposals: Meist unterstützte Vorschläge nach Tags
+      retired_proposals_link: "Vom Autor zurückgezogene Vorschläge"
+      proposals_lists: Weitere Vorschlagslisten
+      orders:
+        confidence_score: Am besten bewertet
+        created_at: Neueste
+        hot_score: Aktivste
+        most_commented: Am meisten kommentiert
+        relevance: Relevanz
+        archival_date: Archiviert
+        recommendations: Empfehlungen
+    form:
+      tag_category_label: "Vorgeschlagene Tags"
+      tags_instructions: "Diesen Vorschlag markieren. Sie können aus vorgeschlagenen Tags wählen, oder Ihre eigenen hinzufügen"
+      tags_label: Verschlagwortung
+      tags_placeholder: "Klicken Sie auf einen oder mehrere vorgeschlagene(n) Tag(s) oder geben Sie eigene Tags komma-getrennt ein."
+    new:
+      more_info: Wie funktionieren die Vorschläge?
+  polls:
+    index:
+      participate_button: "An Abstimmung teilnehmen"
+      participate_button_expired: "Abstimmung beendet"
+      section_header:
+        title: Abstimmungen
+        help: Hilfe zu den Abstimmungen
+      section_footer:
+        title: Hilfe zu den Abstimmungen
+        description: Abstimmungen sind ein partizipatorischer Mechanismus, bei dem die Teilnehmer themenbezogene Entscheidungen treffen können. Die Teilnahmebedingingen, wie zum Beispiel die Beschränkung auf einzelne Gebiete, werden bei der Erstellung einer Abstimmung festgelegt.
+    show:
+      cant_answer_expired: "Diese Abstimmung wurde beendet."
+      info_menu: "Ursprüngliche Abstimmung"
+      stats_menu: "Statistiken"
+      results_menu: "Ergebnisse"
+      stats:
+        white: "Leere"
+      back: Zurück zu Abstimmungen
+  layouts:  
+    header:
+      debates: Diskussionen
+      proposals: Vorschläge
+      poll_questions: Abstimmungen
+      collaborative_legislation: Beteiligungsverfahren
+      budgets: Budgets
+      valuation: Gutachten
+  users:
+    show:
+      filters:
+        comments:
+          one: 1 Kommentar
+          other: "%{count} Kommentare"
+        debates:
+          one: 1 Diskussion
+          other: "%{count} Diskussionen"
+        proposals:
+          one: 1 Vorschlag
+          other: "%{count} Vorschläge"
+        budget_investments:
+          one: 1 Investitionsvorschlag
+          other: "%{count} Investitionsvorschläge"
+        follows:
+          one: 1 folge ich 
+          other: "%{count} folge ich"
+  form:
+    proposal_notification: "Benachrichtigung"
+    budget/investment: Investitionsvorschlag
+    budget/group: Budget Gruppe
+    budget/heading: Budget Untergruppe
+    geozone: Bereiche
+  geozones:
+    none: Alle Bereiche
+
+

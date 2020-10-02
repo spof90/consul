@@ -1,0 +1,5 @@
+de:
+  management:
+    budget_investments:
+      create: Investitionsvorschlag erstellen
+      edit: Investitionsvorschlag bearbeiten

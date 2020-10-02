@@ -1,0 +1,8 @@
+de:
+  moderation:
+    menu:
+      flagged_investments: Budgets
+      proposals: Vorschläge
+    proposals:
+      index:
+        hide_proposals: Vorschlag ausblenden

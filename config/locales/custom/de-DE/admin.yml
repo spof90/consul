@@ -1,0 +1,276 @@
+de:
+  admin:
+    banners:
+      banner:
+        budgets: Budget
+    debates:
+      index:
+        title: Diskussionen
+        no_debates: Keine Diskussion vorhanden.
+    hidden_debates:
+      index:
+        title: Verborgene Diskussion
+        no_hidden_debates: Keine verborgenen Diskussion vorhanden.
+    menu:
+      debates: "Diskussionen"
+      polls: Abstimmungen
+      budgets: Budgets
+      legislation: Beteiligungsverfahren
+      proposals_topics: Vordefinierte Tags
+      hidden_budget_investments: Verborgene Investitionsvorschläge
+      title_booths: Offline Abstimmungen
+      poll_officers: Wahlhelfer*in
+      poll_booth_assignments: Zuordnung der Abstimmungen zu Wahlkabinen
+      signature_sheets: Offline Unterschriftsbögen für Vorschläge
+      officials: Offizielle(r) Vertreter*innen
+      site_customization:
+        information_texts: Benutzerdefinierte Informationstexte
+      valuators: Gutachter*innen für Budgets
+      managers: Verwalter*innen
+      geozones: Geozonen verwalten
+    shared:
+      debate_search:
+        placeholder: Suche Diskussionen per Titel oder Beschreibung
+      poll_officers_search:
+        placeholder: Suche offizielle Vertreter*innen
+    stats:
+      graph:
+        debate_created: Diskussionen
+        proposal_created: Vorschläge
+      show:
+        budgets_title: Partizipatives Budget
+        participatory_budgets: Budgets
+        summary:
+          budget_investments: Investitionsvorschläge
+        polls: Abstimmungen
+
+    tags:
+      create: Tag erstellen
+      destroy: Tag löschen
+      index:
+        add_tag: Neuen Tag für Vorschläge hinzufügen
+        title: Tags der Vorschläge
+        topic: Tag
+        help: "Wenn ein*e Benutzer*in einen Vorschlag erstellt, werden die folgenden Tags als Standard-Tags vorgeschlagen."
+    proposals:
+      form:
+        custom_categories: Tags
+        custom_categories_description: Vordefinierte Tags, die Benutzer*innen bei der Erstellung eines Vorschlags auswählen können.
+        custom_categories_placeholder: Geben Sie die gewünschten Tags ein, getrennt durch Kommas (',') und mit Anführungszeichen ("")
+      index:
+        selected: Vorschläge auswählen
+    polls:
+      index:
+        title: "Liste der Abstimmungen"
+        closing_date: "Enddatum"
+        geozone_restricted: "Beschränkt auf Bereiche"
+      show:
+        officers_tab: Offizielle(r) Vertreter*in
+    active_polls:
+      edit:
+        title: "Übersichtsseite editieren"
+        dashboard:
+      index:
+        back: Zurück zu %{org}
+        title: Verwaltung
+    description: Willkommen auf dem Admin-Panel für %{org}.
+    actions:
+      index:
+        default:
+          polls: Abstimmungen
+      configure: Fragen & Dashboard
+    milestones:
+      form:
+        admin_statuses: Status des Vorschlags verwalten
+        no_statuses_defined: Es wurde noch kein Status für diese Vorschläge definiert
+    statuses:
+      index:
+        title: Status der Vorschläge
+        empty_statuses: Es wurde noch kein Status für die Vorschläge definiert
+        new_status: Neuen Status für Vorschlag erstellen
+    legislation:
+      processes:
+        index:
+          create: Neues Beteiligungsverfahren
+          title: Beteiligungsverfahren
+        new:
+          back: Zurück
+          title: Neues kollaboratives Beteiligungsverfahren erstellen
+          submit_button: Beteiligungsverfahren erstellen
+        subnav:
+          info: Einstellungen
+          homepage: Informationen
+          draft_versions: Ausarbeitung
+          questions: Offene Fragen
+          proposals: Vorschläge
+          milestones: Meilensteine
+        form:
+          enabled: Aktiviert
+          process: Gesamtdauer des Beteiligungsverfahren
+          debate_phase: Phase Offene-Fragen
+          draft_phase: Entwurfsphase
+          draft_phase_description: Wenn diese Phase aktiv ist, wird dieses Beteiligungsverfahren nicht in der Liste aller Verfahren angezeigt. Lassen Sie sich eine Vorschau des Verfahrens anzeigen und erstellen Sie Inhalte vor dem Start.
+          allegations_phase: Ausarbeitungsphase
+          proposals_phase: Vorschlagsphase
+      proposals:
+        form:
+          custom_categories: Tags
+          custom_categories_description: Vorgeschlagene Tags, die Benutzer*innen bei der Erstellung eines Vorschlags auswählen können.
+    budgets:
+      index:
+        title: Budgets
+        new_link: Neues Budget erstellen
+        budget_investments: Investitionsprojekte verwalten
+        table_investments: Investitionsvorschläge
+        edit_budget: Budget bearbeiten
+        no_budgets: "Kein Budget vorhanden."
+      create:
+        notice: Neues Budget erfolgreich erstellt!
+      update:
+        notice: Budget erfolgreich aktualisiert
+      edit:
+        title: Budget bearbeiten
+        delete: Budget löschen
+      destroy:
+        success_notice: Budget erfolgreich gelöscht
+        unable_notice: Ein Budget mit zugehörigen Investitionsvorschlägen kann nicht gelöscht werden
+        unable_notice_polls: Sie können kein Budget löschen, das eine zugehörige Abstimmung hat
+      new:
+        title: Neues Budget
+    budget_groups:
+      index:
+        back: "Zurück zu den Budgets"
+    budget_phases:
+      index:
+        enabled_help_text: Diese Phase wird öffentlich in der Zeitleiste der Phasen des Budget angezeigt und ist auch für andere Zwecke aktiv
+    budget_investments:
+      index:
+        title: Investitionsvorschläge
+        milestone_tags_filter_all: "Status aller Investitionsvorschläge"
+        list:
+          id: ID
+          title: Titel
+          supports: Unterstützung
+          admin: Administrator
+          valuator: Begutachter/in
+          valuation_group: Bewertungsgruppe
+          geozone: Bezug der Vorschläge
+          feasibility: Durchführbarkeit
+          valuation_finished: Bewertung fertig?
+          selected: Status
+          visible_to_valuators: Begutachter*innen zeigen
+          author_username: Benutzer*innenname des/der Verfasser*in
+          incompatible: Inkompatibel
+          price: Preis
+          author: Autor
+    segment_recipient:
+      not_supported_on_current_budget: Benutzer*innen, die keine Vorschläge im aktuellen Budget unterstützt haben
+    system_emails:
+      budget_investment_created:
+        title: "Budget angelegt"
+        description: "Wird gesendet, wenn ein Benutzer einen Vorschlag zum Budget anlegt."
+      budget_investment_selected:
+        title: "Budget ausgewählt"
+        description: "Wird an den Autor gesendet, wenn sein Vorschlag zum Budget ausgewählt wurde."
+      budget_investment_unfeasible:
+        title: "Vorschlag für Budget nicht durchführbar"
+        description: "Wird dem Autor gesendet, wenn sein Vorschlag zum Budget nicht durchführbar ist."
+      budget_investment_unselected:
+        title: "Budget nicht ausgewählt"
+        description: "Wird an den Autor gesendet, wenn sein Vorschlag zum Budget nicht ausgewählt wurde."
+      alert:
+        no_investments: "Es sind keine Budget-Vorschläge angelegt. Einige Beispieldaten werden benötigt, um eine Vorschau der E-Mail zu erhalten."
+    settings:
+      index:
+        map:
+          how_to_enable: 'Um die Karte den Benutzern anzuzeigen, müssen Sie "Vorschläge und Budgets Geolokalisierung" auf der Registerkarte "Funktionen" aktivieren.'
+    poll_officers:
+      index:
+        title: Wahlhelfer*in
+      officer:
+        entry_name: Wahlhelfer*in  
+      search:
+        help: "Um Wahlhelfer*innen hinzuzufügen oder zu entfernen, verwenden Sie das untenstehende Suchformular."
+    poll_officer_assignments:
+      by_officer:
+        assignments: "Wechsel der offiziellen Vertretung in dieser Abstimmung"
+        no_assignments: "In dieser Abstimmung gibt es keinen Schichtwechsel des/der Wahlhelfer*in."
+    poll_booth_assignments:
+      index:
+        officers: "Offizielle(r) Vertreter*in"
+        officers_list: "Liste der offiziellen Vertreter*innen für diese Wahlurne"
+        no_officers: "Es gibt keine offiziellen Vertreter*innen für diese Wahlurne"
+        officers_title: "Liste der zugewiesenen offiziellen Vertreter*innen"
+        count_final: "Endgültige Nachzählung (durch offizielle(r) Vertreter*in)"
+        booths_title: "Liste der zugewiesenen Wahlurnen"
+        no_booths: "Dieser Abstimmung sind keine Wahlhelfer*innen zugeordnet."
+      by_officer:
+        assignments: "Wechsel der offiziellen Vertreter*innen in dieser Abstimmung"
+        no_assignments: "In dieser Abstimmung gibt es keinen Schichtwechsel des/der Wahlhelfer*in."
+    poll_shifts:
+      new:
+        officer: "Offizielle(r) Vertreter*in"
+        search_officer_placeholder: Suche nach offizielle(m) Vertreter*in
+        search_officer_text: Suche nach offizielle(m) Vertreter*in, um neue Arbeitsschicht zuzuordnen
+      flash:
+        create: "Arbeitsschicht für offizielle(m) Vertreter*in hinzugefügt"
+        destroy: "Arbeitsschicht für offizielle(m) Vertreter*in entfernt"
+    recounts:
+      index:
+        table_total_recount: "Gesamte Nachzählung (durch offizielle(n) Vertreter*in)"
+    officials:
+      edit:
+        destroy: Status "offizielle(n) Vertreter*in" entfernen
+        title: "Offizielle(r) Vertreter*in: Benutzer*in bearbeiten"
+      flash:
+        official_destroyed: "Daten gespeichert: Der/Die Benutzer*in ist nicht länger ein/e offizielle(r) Vertreter*in"
+        official_updated: Details des/r offizielle(r) Vertreter*in gespeichert
+      index:
+        no_officials: Keine offizielle Vertreter*innen vorhanden.
+      level_0: Kein/e offizielle(r) Vertreter*in
+      level_1: Stufe 1
+      level_2: Stufe 2
+      level_3: Stufe 3
+      level_4: Stufe 4
+      level_5: Stufe 5
+      search:
+        edit_official: Offizielle(n) Vertreter*in bearbeiten
+        make_official: Offizielle(n) Vertreter*in erstellen
+        title: "Offizielle Vertreter*innen: Benutzer*innensuche"
+        no_results: Keine offizielle Vertreter*innen gefunden.
+    site_customization:
+      pages:
+        index:
+          title: Benutzerdefinierte Seiten
+          see_page: Seite anzeigen
+        new:
+          title: Neue benutzerdefinierte Seite erstellen
+        page:
+          created_at: Erstellt
+          updated_at: Aktualisiert
+          cards_title: Kacheln
+          see_cards: Kachel anzeigen
+        cards:
+          cards_title: Kacheln
+          create_card: Kachel erstellen
+          no_cards: Keine Kachel vorhanden.
+    homepage:
+      cards_title: Kacheln
+      create_card: Kachel erstellen
+      no_cards: Keine Kacheln vorhanden.
+      new:
+        card_title: Neue Kachel
+        submit_card: Kachel erstellen
+      edit:
+        card_title: Kachel bearbeiten
+        submit_card: Kachel speichern
+    managers:
+      index:
+        title: Verwalter*innen
+        no_managers: Keine Verwalter*innen vorhanden.
+      search:
+        title: "Verwalter*innen: Benutzer*innensuche"
+    geozones:
+      index:
+        title: Bereiche
+        create: Bereich erstellen

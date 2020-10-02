@@ -1,0 +1,21 @@
+de:
+  settings:
+    official_level_1_name: "Offizielle(r) Vertreter*in Stufe 1"
+    official_level_2_name: "Offizielle(r) Vertreter*in Stufe 2"
+    official_level_3_name: "Offizielle(r) Vertreter*in Stufe 3"
+    official_level_4_name: "Offizielle(r) Vertreter*in Stufe 4"
+    official_level_5_name: "Offizielle(r) Vertreter*in Stufe 5"
+    email_domain_for_officials: "E-Mail-Domäne für offizielle(n) Vertreter*in"
+    months_to_archive_proposals_description: "Nach dieser Anzahl von Monaten werden die Vorschläge archiviert und können keine Unterstützung mehr erhalten\""
+    feature:
+      user:
+        recommendations_on_debates: "Empfehlungen für Diskussionen"
+        recommendations_on_debates_description: "Zeigt Nutzern Empfehlungen für Diskussionsseite an, basierend auf den Tags und den Objekten, denen sie folgen"
+        recommendations_on_proposals: "Empfehlungen für Vorschläge"
+        recommendations_on_proposals_description: "Zeigt Nutzern Empfehlungen für Vorschlagsseiten an, basierend auf den Tags und den Objekten, denen sie folgen"
+      community: "Community für Vorschläge und Investitionen"
+      community_description: "Schaltet den Community-Bereich in der Rubrik Vorschläge und Investitionsprojekte der Bürgerhaushalte ein"
+      map_description: "Ermöglicht die Geolokalisierung der Vorschläge und Investitionsprojekte"
+      allow_images_description: "Ermöglicht Nutzern das Hochladen von Bildern, wenn Vorschläge und Investitionsprojekte von partizipativen Budgets erstellt werden"
+      allow_attached_documents_description: "Ermöglicht Nutzern das Hochladen von Dokumenten, wenn Vorschläge und Investitionsprojekte von partizipativen Budgets erstellt werden"
+      guides: "Anleitungen zum Erstellen von Vorschlägen und Investitionsprojekten"

@@ -1,0 +1,45 @@
+de:
+  pages:
+    help:
+      title: "%{org} ist eine Beteiligungs-Plattform"
+      proposals:
+        link: "Vorschläge"
+        description: "Im %{link}-Abschnitt können Sie Vorschläge stellen. Die Vorschläge brauchen dann Unterstützung. Wenn Ihr Vorschlag ausreichend Unterstützung bekommt, wird er zur öffentlichen Wahl freigegeben. Vorschläge, die durch Teilnehmerstimmen bestätigt wurden, werden angenommen und umgesetzt."
+      menu:
+        debates: "Diskussionen"
+        proposals: "Vorschläge"
+        budgets: "Budgets"
+        polls: "Abstimmungen"
+        other: "Weitere interessante Informationen"
+        processes: "Beteiligungsverfahren"
+      debates:
+        title: "Diskussionen"
+        description: "Im %{link}-Abschnitt können Sie Ihre Meinung äußern und mit anderen Menschen diskutieren. Zudem ist es ein Bereich, in dem Ideen generiert werden können, die durch andere Module der %{org}, wie zum Beispiel 'Vorschläge' oder 'Abstimmungen', weiter spezifiziert werden können."
+        link: "Diskussionen"
+        feature: "Sie können Diskussionen eröffnen, kommentieren und mit <strong> Ich stimme zu</strong> oder <strong>Ich stimme nicht zu</strong> bewerten. Hierfür müssen Sie %{link}."
+        feature_link: "registrieren für %{org}"
+        image_alt: "Button, um die Diskussionen zu bewerten"
+        figcaption: '"Ich stimme zu" und "Ich stimme nicht zu" Buttons, um die Diskussion zu bewerten.'
+      proposals:
+        title: "Vorschläge"
+        description: "Im %{link}-Abschnitt können Sie Vorschläge zur Verbesserung des Gemeinwesen machen. Die Vorschläge brauchen dann die Unterstützung der anderen Nutzer. Wenn Ihr Vorschlag ausreichend Unterstützung bekommt, wird er zur öffentlichen Wahl freigegeben."
+        link: "Vorschläge"
+        image_alt: "Klicken Sie hier um den Vorschlag zu unterstützen"
+        figcaption: 'Button zur "Unterstützung" eines Vorschlags.'
+      budgets:
+        title: "Budgets"
+        description: "Der %{link}-Abschnitt hilft Personen eine direkte Entscheidung zu treffen, für welche Projekte das zur Verfügung stehende Budget ausgegeben werden soll."
+        link: "Budget"
+        image_alt: "Verschiedene Phasen eines partizipativen Haushalts"
+        figcaption: '"Unterstützungs-" und "Abstimmungs-"Phasen des Bürgerhaushalts.'
+      polls:
+        title: "Abstimmungen"
+        description: "Der %{link}-Abschnitt wird aktiviert, wann immer ein Vorschlag 1% an Unterstützung erreicht und zur Abstimmung übergeht, oder wenn von offizieller Seite ein konkretes Problem zur Abstimmung vorgelegt wird."
+        link: "Abstimmungen"
+        feature_1: "Um an der Abstimmung teilzunehmen, müssen Sie %{link} und Ihr Konto verifizieren."
+        feature_1_link: "anmelden %{org_name}"
+      processes:
+        title: "Beteiligungsverfahren"
+        description: "Im %{link}-Abschnitt erarbeiten Nutzer kollaborativ Dokumente. Der Beteiligungsprozess ist in verschiedene Phasen gegliedert. Es können offene Fragen beantwortet werden, Entwürfe erstellt und Vorschläge eingebracht werden."
+        link: "Beteiligungsverfahren"
+

@@ -1,0 +1,54 @@
+de:
+  attributes:
+    geozone_id: "Rahmen des Vorschlags"
+  activerecord:
+    attributes:
+      budget:
+        description_finished: "Beschreibung, wenn das Budget beschlossen ist"
+      debate/translation:
+        title: "Titel der Diskussion"
+        description: "Initialer Diskussionsbeitrag"
+      debate:
+        tag_list: "Eigene Tags hinzufügen"
+      signature_sheet:
+        signable_id: "ID des Vorschlags/Investitionsvorschlags"
+      tag:
+        name: "Geben Sie den Namen des Tags ein"
+      legislation/process:
+        debate_start_date: Anfangsdatum
+        debate_end_date: Enddatum
+        draft_start_date: Anfangsdatum
+        draft_end_date: Enddatum
+        draft_publication_date: Veröffentlichung des Entwurfs
+        allegations_start_date: Anfangsdatum
+        allegations_end_date: Enddatum
+        proposals_phase_start_date: Anfangsdatum
+        proposals_phase_end_date: Enddatum
+        result_publication_date: Veröffentlichung Endergebnis
+        homepage_enabled: "Informations-Tab aktiviert"
+      user:
+        official_position: "Offizielle(r) Vertreter*in"
+        email_on_comment: "Benachrichtigung per Mail, wenn meine Vorschläge oder Diskussionen kommentiert werden"
+    models:
+      proposal:
+        one: "Vorschlag"
+        other: "Vorschläge"
+      poll:
+        one: "Abstimmung"
+        other: "Abstimmungen"
+      budget:
+        one: "Budget"
+        other: "Budgets"
+      milestone/status:
+        one: "Status des Vorschlags"
+        other: "Status der Vorschläge"
+      poll/officer:
+        one: "Offizielle(r) Vertreter*in"
+        other: "Offizielle Vertreter*innen"
+      site_customization/image:
+        other: Benutzerdefinierte Bilder
+      site_customization/content_block:
+        other: Benutzerdefinierte Inhaltsdatenblöcke
+      manager:
+        one: "Verwalter*in"
+        other: "Verwalter*innen"

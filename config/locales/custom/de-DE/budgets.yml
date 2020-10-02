@@ -1,0 +1,99 @@
+de:
+  budgets:
+    ballots:
+      show:
+        voted:
+          one: "Sie haben für <span>one</span> Budget gestimmt."
+          other: "Du hast für <span>%{count}</span> Budget gestimmt."
+        zero: Sie haben noch über keinen Investitionsvorschlag abgestimmt.
+      reasons_for_not_balloting:
+        not_verified: Nur verifizierte Benutzer*innen können über einen Investitionsvorschlag abstimmen; %{verify_account}.
+        not_selected: Für nicht durchführbare Investitionsvorschläge kann nicht abgestimmt werden
+        not_enough_money: "Sie haben bereits das gesamte verfügbare Budget zugewiesen.<br><small>Bitte denken Sie daran, dass Sie dies %{change_ballot} jederzeit</small>ändern können"
+    groups:
+      show:
+        unfeasible_title: Nicht durchführbare Investitionsvorschläge
+        unfeasible: Nicht durchführbare Investitionen anzeigen
+        unselected_title: Investitionsvorschläge, die nicht für die Abstimmungsphase ausgewählt wurden
+        unselected: Investitionsvorschläge, die nicht für die Abstimmungsphase ausgewählt wurden, anzeigen
+    phase:
+      finished: Abschluss aktuelles Budget
+    index:
+      title: Budget
+      empty_budgets: Kein Budget vorhanden.
+      section_header:
+        icon_alt: Symbol für Budget
+        title: Budget
+        help: Hilfe zu Budgets
+      all_phases: Phasen des Budgets
+      map: Investitionsvorschläge geografisch geordnet
+      investment_proyects: Liste aller Investitionsvorschläge
+      unfeasible_investment_proyects: Liste aller nicht durchführbaren Investitionsvorschläge
+      not_selected_investment_proyects: Liste aller Investitionsvorschläge, die nicht für die Abstimmung ausgewählt wurden
+      finished_budgets: Abgeschlossene Budgets
+      section_footer:
+        title: Hilfe zu Budgets
+        description: Durch Budgets können Teilnehmer*innen entscheiden, in welche Projekte ein bestimmter Teil des Budgets investiert werden soll.
+    investments:
+      form:
+        tag_category_label: "Vorgeschlagene Tags"
+        tags_instructions: "Markieren Sie den Vorschlag. Sie können einen Tag auswählen oder selbst erstellen"
+        tags_label: Verschlagwortung
+        tags_placeholder: "Klicken Sie auf einen oder mehrere vorgeschlagene(n) Tag(s) oder geben Sie eigene Tags komma-getrennt ein."
+        map_skip_checkbox: "Dieser Investitionsvorschlag hat keinen konkreten Standort oder ich kenne ihn nicht."
+      index:
+        title: Budget
+        unfeasible: Undurchführbare Investitionsvorschläge
+        unfeasible_text: "Der Investitionsvorschlag muss eine gewisse Anzahl von Anforderungen erfüllen, (Legalität, Durchführbarkeit, im Aufgabenbereich der Stadt, innerhalb des Limits des Haushaltes) um für durchführbar erklärt werden zu können und das Stadium der finalen Abstimmung zu erreichen. Alle Investitionsvorschläge, die diese Kriterien nicht erfüllen, sind als nicht durchführbar markiert und stehen in der folgenden Liste, zusammen mit einem Bericht zur Undurchführbarkeit."
+        by_heading: "Investitionsvorschläge im Bereich: %{heading}"
+        search_form:
+          placeholder: Suche Investitionsvorschläge...
+        sidebar:
+          voted:
+            one: "<strong>Sie haben für einen Vorschlag mit Kosten von %{amount_spent}-</strong> gestimmt"
+            other: "<strong>Sie haben für Vorschläge mit Kosten von %{amount_spent}</strong> gestimmt %{count}"
+          check_ballot_link: "Überprüfung meiner Abstimmung"
+          zero: Sie haben für keinen Investitionsvorschlag in dieser Gruppe abgestimmt.
+          verified_only: "Um ein neuen Investitionsvorschlag zu erstellen %{verify}."
+          create: "Investitionsvorschlag einbringen"
+          not_logged_in: "Um einen neuen Investitionsvorschlag erstellen zu können, müssen Sie %{sign_in} oder %{sign_up}."
+        orders:
+          random: Zufällig
+          confidence_score: Am besten bewertet
+          price: Nach Preis
+      share:
+        message: "Ich habe einen Investitionsvorschlag %{title} in %{handle} erstellt. Erstellen Sie auch einen Investitionsvorschlag!"
+      show:
+        code: "Code des Investitionsvorschlags: <strong>%{code}</strong>"
+        project_unfeasible: "Dieser Investitionsvorschlag <strong>wurde als nicht durchführbar markiert</strong> und wird nicht in die Abstimmungsphase übergehen."
+        project_selected: "Dieser Investitionsvorschlag wurde für die Abstimmungsphase <strong>ausgewählt</strong>."
+        project_winner: "Best bewerteter Investitionsvorschlag"
+        project_not_selected: "Dieser Investitionsvorschlag wurde <strong>nicht</strong> für die Abstimmungsphase ausgewählt."
+      investment:
+        already_added: Sie haben diesen Investitionsvorschlag bereits hinzugefügt
+        already_supported: Sie haben diesen Investitionsvorschlag bereits unterstützt. Jetzt teilen!
+        confirm_group:
+          one: "Sie können nur Investitionsvorschläge im %{count} Bezirk unterstützen. Wenn Sie fortfahren, können Sie ihren Wahlbezirk nicht ändern. Sind Sie sicher?"
+          other: "Sie können nur Investitionsvorschläge im %{count} Bezirk unterstützen. Wenn sie fortfahren, können sie ihren Wahlbezirk nicht ändern. Sind sie sicher?"
+      header:
+        check_ballot_link: "Meine Abstimmungen überprüfen"
+        price: "Dieser Bereich verfügt über eine Budget von"
+    show:
+      unfeasible_title: Nicht durchführbare Investitionsvorschläge
+      unfeasible: Nicht durchführbare Investitionsvorschläge anzeigen
+      unselected_title: Investitionsvorschläge, die es nicht in die Abstimmungsphase geschafft haben
+      unselected: Investitionsvorschläge, die es nicht in die Abstimmungsphase geschafft haben, anzeigen
+    results:
+      heading: "Ergebnisse des Budgets"
+      amount_available: Verfügbares Budget
+      accepted: "Genehmigter Investitionsvorschlag: "
+      discarded: "Verworfener Investitionsvorschlag: "
+      investment_proyects: Liste aller Investitionsvorschläge
+      unfeasible_investment_proyects: Liste aller nicht durchführbaren Investitionsvorschläge
+      not_selected_investment_proyects: Liste aller Investitionsvorschläge, die es nicht in die Abstimmung geschafft haben
+    executions:
+      heading: "Meilensteine des Budgets"
+      no_winner_investments: "Keine erfolgreichen Investitionsvorschläge in diesem Status"
+      filters:
+        milestone_tag:
+          label: "Status des Investitionsvorschlags"
