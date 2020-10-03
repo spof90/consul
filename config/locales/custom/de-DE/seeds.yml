@@ -7,10 +7,10 @@ de:
       official_level_4_name: Offizielle Position 4
       official_level_5_name: Offizielle Position 5
     geozones:
-      north_district: Bereich 1
-      west_district: Bereich 2
-      east_district: Bereich 3
-      central_district: Bereich 4
+      north_district: Gebiet-Nord
+      west_district: Gebiet-West
+      east_district: Gebiet-Ost
+      central_district: Gebiet-Zentrum
     organizations:
       human_rights: Menschenrechte
       neighborhood_association: Nachbarschaftsvereinigung
@@ -34,7 +34,7 @@ de:
       budget: Budget
       currency: '€'
       groups:
-        all_city: Alle Bereiche
+        all_city: Alle Städte
         districts: Bereiche
       valuator_groups:
         culture_and_sports: Kultur & Sport
