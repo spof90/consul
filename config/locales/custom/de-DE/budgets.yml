@@ -49,12 +49,12 @@ de:
     phase:
       drafting: Entwurf (nicht für die Öffentlichkeit sichtbar)
       informing: Information
-      accepting: Projekte vorschlagen
-      reviewing: Interne Überprüfung der Projekte
-      selecting: Auswahlphase
-      valuating: Projekte begutachten
-      publishing_prices: Preise der Projekte veröffentlichen
-      balloting: Abstimmung für Projekte
+      accepting: Investitionsvorschläge einreichen
+      reviewing: Interne Überprüfung der Investitionsvorschläge
+      selecting: Auswahlphase der Investitionsvorschläge
+      valuating: Investitionsvorschläge begutachten
+      publishing_prices: Preise der Investitionsvorschläge veröffentlichen
+      balloting: Abstimmung über Investitionsvorschläge
       reviewing_ballots: Abstimmung überprüfen
       finished: Abschluss aktuelles Budget
     index:
@@ -116,7 +116,7 @@ de:
           check_ballot_link: "Überprüfung meiner Abstimmung"
           zero: Sie haben für keinen Investitionsvorschlag in dieser Gruppe abgestimmt.
           verified_only: "Um ein neuen Investitionsvorschlag zu erstellen %{verify}."
-          create: "Eine Investitionsvorschläge erstellen"
+          create: "Einen Investitionsvorschlag erstellen"
           not_logged_in: "Um einen neuen Investitionsvorschlag erstellen zu können, müssen Sie %{sign_in} oder %{sign_up}."
           by_feasibility: Nach Durchführbarkeit
           feasible: Durchführbare Projekte
