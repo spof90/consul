@@ -23,9 +23,9 @@ de:
         no_balloted_group_yet: "Sie haben in dieser Gruppe noch nicht abgestimmt. Stimmen Sie jetzt ab!"
         remove: Stimme entfernen
         voted:
-          one: "Sie haben für <span>one</span> Budget gestimmt."
-          other: "Du hast für <span>%{count}</span> Budget gestimmt."
-        voted_info: "Ihre Wahl ist bestätigt!"
+          one: "Sie haben für <span>one</span> Investitionsvorschläge gestimmt."
+          other: "Sie haben für <span>%{count}</span> Investitionsvorschläge gestimmt."
+        voted_info: "Ihre Stimme ist bestätigt!"
         voted_info_2: "Aber Sie können Ihre Stimme jederzeit ändern, bis diese Phase abgeschlossen ist."
         zero: Sie haben noch über keinen Investitionsvorschlag abgestimmt.
       reasons_for_not_balloting:
