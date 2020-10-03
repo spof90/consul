@@ -69,7 +69,7 @@ de:
         filters:
           open: Offen
           finished: Abgeschlossen
-        budget_investments: Ausgabenprojekte verwalten
+        budget_investments: Investitionsprojekte verwalten
         table_name: Name
         table_phase: Phase
         table_investments: Investitionsvorschläge
@@ -691,7 +691,7 @@ de:
       title_settings: Einstellungen
       title_site_customization: Seiteninhalt
       title_booths: Wahlkabinen
-      legislation: Kollaborative Gesetzgebung
+      legislation: Beteiligungsverfahren
       users: Benutzer*innen
       dashboard: Vorschläge Dashboard
       administrator_tasks: Beantragte Ressourcen
