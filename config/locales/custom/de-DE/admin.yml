@@ -150,7 +150,6 @@ de:
         success_notice: "Rubrik erfolgreich gelöscht"
         unable_notice: "Eine Rubrik mit zugehörigen Investitionsvorschlägen kann nicht gelöscht werden"
       form:
-        max_ballot_lines_info: "Maximale Anzahl von Projekten, über die ein Benutzer während der Phase "Abstimmung über Projekte" abstimmen kann. Nur für Budgets mit Genehmigungsabstimmung."
         population_info: "Dieses Feld wird nur für statistische Zwecke verwendet, mit dem Ziel, den Prozentsatz der Stimmen in jeder Rubrik anzuzeigen. Dieses Feld ist optional; Sie können es daher leer lassen, wenn es nicht zutrifft."
         coordinates_info: "Wenn Längen- und Breitengrad angegeben sind, enthält die Seite des Investitionsvorschlags für diese Rubrik eine Karte. Diese Karte wird mit diesen Koordinaten berechnet."
         content_blocks_info: "Wenn Inhaltsblock zulassen aktiviert ist, können Sie benutzerdefinierte Inhalte, die sich auf diese Rubrik beziehen, im Abschnitt Einstellungen> Benutzerdefinierte Inhaltsblöcke erstellen. Dieser Inhalt wird auf der Investitionsvorschlagsseite für diese Rubrik angezeigt."
