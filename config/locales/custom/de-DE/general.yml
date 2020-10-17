@@ -94,7 +94,7 @@ de:
       tags_instructions: Diskussion markieren.
       tags_placeholder: "Trennen Sie die Tags mit einem Komma (',')"
     index:
-      featured_debates: Hervorgehoben
+      featured_debates: Schnellnavigation
       orders:
         confidence_score: Am besten bewertet
         created_at: Neuste
@@ -880,7 +880,7 @@ de:
       process_label: Beteiligungsverfahren
       see_process: Beteiligungsverfahren anzeigen
     cards:
-      title: Hervorgehoben
+      title: Schnellnavigation
     recommended:
       title: Empfehlungen, die Sie vielleicht interessieren
       help: "Diese Empfehlungen werden durch die Schlagwörter der Diskussionen und Vorschläge, denen Sie folgen, generiert."

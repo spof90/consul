@@ -1,0 +1,71 @@
+.figure-card {
+    display: flex;
+    margin: 0 0 $line-height;
+    overflow: hidden;
+    position: relative;
+  
+    @include breakpoint(medium down) {
+      min-height: $line-height * 4;
+    }
+  
+    @include breakpoint(medium) {
+      max-height: rem-calc(600);
+    }
+  
+    @include breakpoint(large) {
+      max-height: rem-calc(600);
+    }
+  
+    a {
+  
+      h3,
+      .title {
+        color: #fff;
+      }
+  
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  
+    figcaption {
+      bottom: 0;
+      color: #fff;
+      font-size: rem-calc(24);
+      line-height: rem-calc(24);
+      text-transform: uppercase;
+      padding: $line-height / 4 $line-height / 2;
+      position: absolute;
+      width: 100%;
+  
+      h3,
+      .title {
+        font-size: $base-font-size;
+  
+        @include breakpoint(medium) {
+          font-size: rem-calc(20);
+        }
+  
+        @include breakpoint(large) {
+          font-size: rem-calc(24);
+          line-height: rem-calc(24);
+        }
+      }
+  
+      span {
+        background: #fff;
+        border-radius: rem-calc(4);
+        color: #000;
+        display: inline-block;
+        font-size: $small-font-size;
+        font-weight: bold;
+        margin-bottom: $line-height / 4;
+        padding: rem-calc(4) rem-calc(8);
+      }
+    }
+  }
