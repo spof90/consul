@@ -220,14 +220,14 @@
     }
 
     @media only screen and (min-width: 1900px) {
-      padding-top: 250px;
+      padding-top: 370px;
       background: image-url("welcome/head_large.png");
       background-size: 100% auto;;
       background-repeat: no-repeat;
-      padding-bottom: rem-calc(380);
+      padding-bottom: rem-calc(80);
 
       .lead {
-        color: $brand;
+        color: $white;
         font-size: rem-calc(30);
         font-weight: 700;
         line-height: rem-calc(30);
