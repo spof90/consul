@@ -34,7 +34,7 @@ de:
       budget: Budget
       currency: '€'
       groups:
-        all_city: Alle Bereiche
+        all_city: Ganze Schule
         districts: Bereiche
       valuator_groups:
         culture_and_sports: Kultur & Sport

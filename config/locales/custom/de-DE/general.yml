@@ -191,7 +191,7 @@ de:
     site_customization/content_block: Inhaltsblöcke
     site_customization/page: Seite
   geozones:
-    none: Alle Bereiche
+    none: Ganze Schule
   layouts:
     application:
       chrome: Google Chrome
@@ -611,7 +611,7 @@ de:
       title: "Abstimmungen"
       participate_button: "An dieser Abstimmung teilnehmen"
       participate_button_expired: "Abstimmung beendet"
-      no_geozone_restricted: "Alle Bereiche"
+      no_geozone_restricted: "Ganze Schule"
       geozone_restricted: "Bereiche"
       geozone_info: "Nutzer können an folgenden Abstimmungen teilnehmen: "
       already_answer: "Sie haben bereits an dieser Abstimmung teilgenommen"
