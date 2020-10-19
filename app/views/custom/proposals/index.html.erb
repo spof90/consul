@@ -11,7 +11,15 @@
   <main>
     
     <%= render "shared/section_header", i18n_namespace: "proposals.index.section_header", image: "proposals" %>
-  
+   
+    <div class="row">    
+      <div class="small-12 medium-9 column headerinfo">      
+        <p>Hier können Vorschläge eingebracht werden, die entweder für die ganze Schule relevant sind oder nur für einzelne Klassen, Lehrer oder Eltern.
+        Beim Erstellen der Vorschläge kann dies eingeschränkt werden. Entsprechend dieser Einstellungen können auch nur Vorschläge unterstützt werden,
+        für die man zur Unterstützung berechtigt ist.</p>    
+      </div>  
+    </div>
+
     <% if show_recommended_proposals? %>
       <%= render "shared/recommended_index", recommended: @recommended_proposals,
                                              disable_recommendations_path: recommendations_disable_proposals_path,
