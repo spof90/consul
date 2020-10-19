@@ -9,6 +9,7 @@
   <% end %>
   
   <main>
+    <%= render "shared/section_header", i18n_namespace: "debates.index.section_header", image: "debates" %>
   
     <% if feature?("user.recommendations") && @recommended_debates.present? %>
       <%= render "shared/recommended_index", recommended: @recommended_debates,
