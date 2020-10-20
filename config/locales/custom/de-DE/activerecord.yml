@@ -1,6 +1,6 @@
 de:
   attributes:
-    geozone_id: "Rahmen des Vorschlags"
+    geozone_id: "Wer soll darüber entscheiden dürfen?"
     results_enabled: "Ergebnisse anzeigen"
     stats_enabled: "Statistiken anzeigen"
     advanced_stats_enabled: "Erweiterte Statistiken anzeigen"
