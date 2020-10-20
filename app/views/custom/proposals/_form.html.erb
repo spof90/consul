@@ -46,8 +46,8 @@
       </div>
     <% end %>
 
-    <div class="small-12 medium-6 column">
-      <%= f.select :geozone_id, geozone_select_options,
+    <div class="small-12 medium-6 column <% if !(current_user.present? && (current_user.moderator? || current_user.administrator?)) %>hide<% end %>">
+      <%= f.text_field :geozone_id, value: params[:project],
         include_blank: t("geozones.none") %>
     </div>
 
