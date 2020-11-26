@@ -38,7 +38,6 @@ class ProposalsController
     load_selected
     load_featured
     remove_archived_from_order_links
-    take_only_by_tag_name
     @proposals_coordinates = all_proposal_map_locations
   end
 
@@ -66,19 +65,8 @@ class ProposalsController
     		Proposal.published().not_retired().not_archived().proposals_by_category(params[:project])
     	elsif params[:search]
       		Proposal.published().not_retired().not_archived().search(params[:search])
-	else
-	  Proposal.published().not_retired().not_archived().all
-	end
-    end
-  
-    def proposal_created_email(proposal)
-      @proposal = proposal
-      @project = @proposal.tag_list_with_limit(1)
-      if !@project.empty?
-        @officials_by_project = User.officials_by_project(@project.first)
-        @officials_by_project.each do |official|
-          Mailer.proposal_created(@proposal, official).deliver_later
-        end
+      else
+        Proposal.published().not_retired().not_archived().all
       end
     end
 end
